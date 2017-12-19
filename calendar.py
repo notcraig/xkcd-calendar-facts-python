@@ -1,9 +1,9 @@
 #!/usr/bin/env python
 # Dear gods of geekdom this is fugly.
-# But it is my first "totally from scratch" python script. I learned all
-# about lists, appending said lists, the random module and other fun
-# things.
-
+# But it is my first "totally from scratch" python script. I learned all about lists, appending said lists, 
+# the random module and other fun things.
+#
+# Inspired by https://xkcd.com/1930/
 
 from random import choice
 Equinox = ["Fall", "Spring", ]
