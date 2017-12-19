@@ -36,8 +36,8 @@ phenomena = ["a decree by the pope in the 1500s", "magnetic field reversal"]
 tz_legislation = ["Indiana", "Arizona", "Russia"]
 
 
-celestial1 = ["precession", "libration", "nutation",
-              "libation", "eccentricity", "obliquity"]
+celestial1 = ["the precession", "the libration", "the nutation",
+              "the libation", "the eccentricity", "the obliquity"]
 celestial2 = ["Moon", "Sun",
               "Earth's axis",
               "equator",
