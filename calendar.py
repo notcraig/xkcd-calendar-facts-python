@@ -1,16 +1,16 @@
 #!/usr/bin/env python
 # Dear gods of geekdom this is fugly.
-# But it is my first "totally from scratch" python script. I learned all about lists, appending said lists, 
-# the random module and other fun things.
-#
-# Inspired by https://xkcd.com/1930/
+# But it is my first "totally from scratch" python script. I learned all
+# about lists, appending said lists, the random module and other fun
+# things.
+
 
 from random import choice
 Equinox = ["Fall", "Spring", ]
-Solstice = ["Summer", "Winter"]
-Olympics = ["Summer", "Winter"]
-Sunrise = ["Latest", "Earliest"]
-Sunset = ["Latest", "Earliest"]
+Winter = ["Solstice","Olympics"]
+Summer = ["Solstice","Olympics"]
+Latest = ["Sunrise","Sunset"]
+Earliest = ["Sunrise","Sunset"]
 Daylight = ["Saving", "Savings"]
 Leap = ["Day", "Year"]
 Moon = ["Harvest", "Super", "Blood", ]
@@ -85,20 +85,20 @@ for item in Equinox:
     item = "the " + item + " Equinox"
     recurring_event.append(item)
 
-for item in Solstice:
-    item = "the " + item + " Solstice"
+for item in Winter:
+    item = "the Winter " + item 
     recurring_event.append(item)
 
-for item in Olympics:
-    item = "the " + item + " Olympics"
+for item in Summer:
+    item = "the Summer " + item
     recurring_event.append(item)
 
-for item in Sunrise:
-    item = "the " + item + " Sunrise"
+for item in Latest:
+    item = "the Latest " + item
     recurring_event.append(item)
 
-for item in Sunset:
-    item = "the " + item + " Sunset"
+for item in Earliest:
+    item = "the Earliest " + item
     recurring_event.append(item)
 
 for item in Daylight:
