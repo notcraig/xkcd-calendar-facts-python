@@ -7,6 +7,7 @@ Dear gods of geekdom, I know this is *fugly* and could be made much more compact
 `calendar-facts-datatree.py` is my stab at learning data tree structure ([Decision Tree](https://en.wikipedia.org/wiki/Decision_tree)).  
 All it does at the moment is print out the trees. Making the random calendar facts -- I'm still working on that.
 
+```
 Did you know that
 ├── Daylight
 │   ├── Saving
@@ -56,7 +57,7 @@ Manner
 └── might
     ├── happen twice
     └── not happen
-
+`
 because of
 ├── a decree by the pope in the 1500s
 ├── an arbitrary decision by
@@ -144,4 +145,4 @@ While it may seem like trivia, it
 ├── has to be corrected for by GPS satellites
 ├── is taken advantage of by high-speed traders
 └── triggered the 2003 Northeast Blackout
-
+```
